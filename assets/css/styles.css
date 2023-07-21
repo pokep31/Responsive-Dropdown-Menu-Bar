@@ -321,7 +321,7 @@ a {
   }
   
   /* Show dropdown submenu */
-  .dropdown__subitem:hover .dropdown__submenu{
+  .dropdown__subitem:hover > .dropdown__submenu{
     opacity: 1;
     top: 0;
     pointer-events: initial;
